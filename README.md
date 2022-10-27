@@ -16,10 +16,7 @@ array([[   54,    33],
 
 And imbalanced classification report like:
 
-                   pre       rec       spe        f1       geo       iba       sup
-  high_risk       0.01      0.62      0.65      0.02      0.64      0.40        87
-   low_risk       1.00      0.65      0.62      0.79      0.64      0.41     17118
-avg / total       0.99      0.65      0.62      0.79      0.64      0.41     17205
+![image](https://user-images.githubusercontent.com/49285767/198269414-6f3b0b32-675a-4330-b454-7c20459cade3.png)
 
 
 SMOTE Oversampling
@@ -33,11 +30,7 @@ array([[   54,    33],
        
 and the the imbalanced classification report is as bellow:
 
-                   pre       rec       spe        f1       geo       iba       sup
-  high_risk       0.01      0.62      0.64      0.02      0.63      0.40        87
-   low_risk       1.00      0.64      0.62      0.78      0.63      0.40     17118
-avg / total       0.99      0.64      0.62      0.78      0.63      0.40     17205
-
+![image](https://user-images.githubusercontent.com/49285767/198269496-d7907eb2-e7be-4a7e-b8e6-6dc9e894f8fc.png)
 
 Undersampling
 
@@ -48,10 +41,7 @@ array([[  51,   36],
        
 and the imbalanced classification report for it is :
 
-                   pre       rec       spe        f1       geo       iba       sup
-  high_risk       0.01      0.59      0.43      0.01      0.50      0.26        87
-   low_risk       1.00      0.43      0.59      0.60      0.50      0.25     17118
-avg / total       0.99      0.44      0.59      0.60      0.50      0.25     17205
+![image](https://user-images.githubusercontent.com/49285767/198269673-84644bcf-2d5e-4720-b651-e80b83e0549d.png)
 
 Combination (Over and Under) Sampling
 
@@ -80,10 +70,7 @@ array([[   30,    57],
        
  imbalanced classification report:
  
-                   pre       rec       spe        f1       geo       iba       sup
-  high_risk       0.73      0.34      1.00      0.47      0.59      0.32        87
-   low_risk       1.00      1.00      0.34      1.00      0.59      0.37     17118
-avg / total       1.00      1.00      0.35      1.00      0.59      0.37     17205 
+ ![image](https://user-images.githubusercontent.com/49285767/198269754-bb540d08-49e4-4474-a808-34a3973d910e.png)
 
 List the features sorted in descending order by feature importance
 
@@ -112,10 +99,7 @@ the confusion matrix array([[   79,     8],
 
  imbalanced classification report:
  
-                   pre       rec       spe        f1       geo       iba       sup
-  high_risk       0.07      0.91      0.94      0.14      0.93      0.85        87
-   low_risk       1.00      0.94      0.91      0.97      0.93      0.86     17118
-avg / total       0.99      0.94      0.91      0.97      0.93      0.86     1720
+![image](https://user-images.githubusercontent.com/49285767/198269980-3c2a27a6-5e91-481e-ad94-557e4fd31a71.png)
 
 
 SUMMARY
